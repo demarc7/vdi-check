@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Button Styles */
+#startCheck {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startCheck:hover {
+    background-color: #005a9e;
+}
+
+/* Table Styles */
+#resultsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#resultsTable th,
+#resultsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#resultsTable th {
+    background-color: #0078d4;
+    color: white;
+}
+
+#resultsTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#resultsTable tr:hover {
+    background-color: #ddd;
+}
+
+/* Status Styles */
+.status-Accessible {
+    color: green;
+    font-weight: bold;
+}
+
+.status-NotAccessible,
+.status-Error {
+    color: red;
+    font-weight: bold;
+}
+
+.status-Checking {
+    color: orange;
+    font-weight: bold;
+}

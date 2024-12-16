@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1f2a2b8d-9b45-40e9-876b-f906a0e38d8a/resourceGroups/weu-msdn-vdi-check/providers/Microsoft.Web/sites/li-vdi-check",
+    "appService.deploySubpath": "."
+}

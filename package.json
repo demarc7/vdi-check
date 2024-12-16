@@ -1,0 +1,16 @@
+{
+  "name": "connectivity-checker",
+  "version": "1.0.0",
+  "description": "Web app to perform connectivity checks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "express": "^4.21.1",
+    "https": "^1.0.0",
+    "net": "^1.0.2",
+    "ping": "^0.4.4"
+  }
+}
